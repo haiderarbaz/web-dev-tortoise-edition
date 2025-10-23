@@ -1,0 +1,29 @@
+h1,
+h2,
+p {
+  color: #110101;
+}
+
+h1 {
+  background-color: cadetblue;
+  font-family: "Courier New", Courier, monospace;
+  padding: 6px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  background-color: burlywood;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+p {
+  background-color: brown;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px;
+  border-radius: 20px;
+}
