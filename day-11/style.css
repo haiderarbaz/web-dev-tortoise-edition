@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #6f4e37;
+}
+h1 {
+  color: #c9cdd3;
+  border-bottom: 3px solid #cdaf9a;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 30px;
+  color: #c9cdd3;
+  border-bottom: 2px solid #cdaf9a;
+}
+.day-card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.day-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.day-link:hover {
+  background: #2563eb;
+}
+
+/* a {
+  text-decoration: none;
+} */
