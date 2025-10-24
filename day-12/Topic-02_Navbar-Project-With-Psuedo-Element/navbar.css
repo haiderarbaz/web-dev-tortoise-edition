@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.nav-container {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.nav1 {
+  /* border: 2px solid red; */
+  background: #f0ebeb;
+  padding: 10px;
+}
+
+.nav1 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav1 li {
+  display: inline;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: #373232;
+  /* background-color: #985a5a; */
+  padding: 5px 15px;
+  position: relative;
+}
+
+.nav1 a::after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #0a65c7;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav1 a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav1 .login-btn {
+  background: rgb(48, 48, 189);
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
