@@ -4,13 +4,13 @@
 
 - Navbar project with Pseudo element
 
-- Code Files
-
-  - **[Code Examples](./index.html)**
-
 ---
 
 ## Topic 1: Box model, inline and block elements
+
+- Code Files
+
+  - **[Box model, inline and block elements](./Topic-01_Box-Model-Inline-Block-Elements/box-model.html)**
 
 ---
 
@@ -461,6 +461,12 @@ a {
 ---
 
 ## Topic 2: Navbar Project with Pseudo-elements
+
+- Code Files
+
+  - **[Navbar Project with Pseudo-elements](./Topic-02_Navbar-Project-With-Psuedo-Element/navbar.html)**
+
+---
 
 ## What are Pseudo-elements?
 
