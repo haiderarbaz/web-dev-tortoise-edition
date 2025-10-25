@@ -48,6 +48,10 @@ day-14/
 
 ## Topic - 1: Build a custom coming soon template Project
 
+- Code Files
+
+  - **[Build a custom coming soon template Project](./Topic-01_Build-a-Custom-Coming-Soon-Template-Project/coming-soon.html)**
+
 ### Chai Landing Page - Coming Soon
 
 A modern, clean "Coming Soon" landing page with gradient background and wave animation.
@@ -199,6 +203,10 @@ svg {
 ---
 
 ## Topic - 2: Flexbox Masterclass
+
+- Code Files
+
+  - **[Flexbox Masterclass](./Topic-02_Flexbox-Masterclass/flexbox.html)**
 
 A complete visual guide to CSS Flexbox with live examples of every property and practical real-world uses.
 

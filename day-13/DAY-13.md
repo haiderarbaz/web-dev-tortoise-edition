@@ -31,7 +31,7 @@ day-13/
 ├── index.html          # Navigation Page
 ├── style.css
 |
-└── README.md           # Complete Documentation(This File)
+└── DAY-13.md           # Complete Documentation(This File)
 ```
 
 ---
@@ -39,7 +39,7 @@ day-13/
 ## Table of Content
 
 - [Topic - 1: Twitter-Style Navbar](#topic---1-twitter-style-navbar)
-- [Topic 2: Dropdown Navbar & CSS Positions](#topic---2-dropdown-navbar-&-css-positions)
+- [Topic - 2: Dropdown Navbar & CSS Positions](#topic---2-dropdown-navbar-and-css-positions)
 
 ---
 
@@ -53,7 +53,11 @@ day-13/
 
 ---
 
-## Topic 1: Twitter-Style Navbar
+## Topic - 1: Twitter-Style Navbar
+
+- Code Files
+
+  - **[Twitter-Style Navbar](./Topic-01_Twitter-Style-Navbar/twitter-navbar.html)**
 
 ### Project Overview:
 
@@ -250,7 +254,7 @@ ul {
 - Padding creates unwanted indentation
 - Bullet points look unprofessional in navigation
 
-### Custom Navbar Implementation:
+### Custom Navbar Implementation Project:
 
 [Project Code File](./Project/Project-01_Custom-Navigation-Bar/index.html)
 
@@ -264,7 +268,11 @@ ul {
 
 ---
 
-## Topic 2: Dropdown Navbar & CSS Positions
+## Topic - 2: Dropdown Navbar and CSS Positions
+
+- Code Files
+
+  - **[Dropdown Navbar & CSS Positions](./Topic-02_Dropdown-Navbar-And-Position/dropdown-navbar.html)**
 
 ### Understanding CSS Positions:
 

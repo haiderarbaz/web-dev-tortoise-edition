@@ -4,7 +4,42 @@
 
 - Masterclass on CSS selectors
 
+---
+
+### Project Structure:
+
+```
+day-10/
+├── Topic-01_Building-a-web-project-Login-page/
+|   ├── assets/
+|   |   └── login-page.png
+│   ├── login-page.html
+│   └── login-page.css
+|
+├── Topic-02_Masterclass-on-css-selector/
+│   ├── css-selectors.html
+|   └── css-selectors.css
+|
+├── index.html          # Navigation Page
+├── style.css
+|
+└── DAY-11.md           # Complete Documentation(This File)
+```
+
+---
+
+## Table of Content
+
+- [Topic - 1: Building a web project - Login page](#topic---1-building-a-web-project---login-page)
+- [Topic - 2: Masterclass on CSS selectors](#topic---2-masterclass-on-css-selectors)
+
+---
+
 ## Topic - 1: Building a web project - Login page
+
+- Code Files
+
+  - **[Building a web project - Login page](./Topic-01_Building-a-web-project-Login-page/login-page.html)**
 
 A simple and clean **Login Page** built using **HTML and CSS**, created to practice form structure, alignment, and layout styling using Flexbox.
 
@@ -92,6 +127,10 @@ This mini-project focuses on:
 ---
 
 ## Topic - 2: Masterclass on CSS selectors
+
+- Code Files
+
+  - **[Masterclass on CSS selectors](./Topic-02_Masterclass-on-CSS-Selector/css-selectors.html)**
 
 CSS Selectors define **which HTML elements** a style rule applies to.
 

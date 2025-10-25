@@ -6,13 +6,40 @@
 
 ---
 
-## Topic 1: Box model, inline and block elements
+### Project Structure:
+
+```
+day-12/
+├── Topic-01_Box-Model-Inline-Block-Elements/
+|   ├── assets/
+|   |   └── boxModel.png
+│   ├── box-model.html
+│   └── box-model.css
+|
+├── Topic-02_Navbar-Project-With-Pseudo-Element/
+│   ├── navbar.html
+|   └── navbar.css
+|
+├── index.html          # Navigation Page
+├── style.css
+|
+└── DAY-12.md           # Complete Documentation(This File)
+```
+
+---
+
+## Table of Content
+
+- [Topic - 1: Box model, inline and block elements](#topic---1-box-model-inline-and-block-elements)
+- [Topic - 2: Navbar Project with Pseudo-elements](#topic---2-navbar-project-with-pseudo-elements)
+
+---
+
+## Topic - 1: Box model, inline and block elements
 
 - Code Files
 
   - **[Box model, inline and block elements](./Topic-01_Box-Model-Inline-Block-Elements/box-model.html)**
-
----
 
 ### Box Model:
 
@@ -20,7 +47,7 @@ The Box Model is a fundamental concept that defines how every HTML element is vi
 
 Every element is treated as a rectangular box composed of four distinct areas that control its size, position, and spacing.
 
-![Box Model](./assets/boxModel.png)
+![Box Model](./Topic-01_Box-Model-Inline-Block-Elements/assets/boxModel.png)
 
 **Four Key Areas:**
 
@@ -460,7 +487,7 @@ a {
 
 ---
 
-## Topic 2: Navbar Project with Pseudo-elements
+## Topic - 2: Navbar Project with Pseudo-elements
 
 - Code Files
 

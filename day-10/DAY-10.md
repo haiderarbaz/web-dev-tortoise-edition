@@ -6,7 +6,43 @@
 
 ---
 
-## Topic - 1 : The current state of CSS
+### Project Structure:
+
+```
+day-10/
+├── Topic-01_Current-State-of-CSS/
+│   ├── index.html
+│   └── style.css
+|
+├── Topic-02_Ways-to-Write-CSS/
+│   ├── 01-inline-css/
+|   |   └── inine-css-example.html
+│   ├── 02-internal-css/
+|   |   └── internal-css-example.html
+|   └── 03-external-css/
+|       ├── index.html
+|       └── external-css-example.css
+|
+├── index.html          # Navigation Page
+├── style.css
+|
+└── DAY-10.md           # Complete Documentation(This File)
+```
+
+---
+
+## Table of Content
+
+- [Topic - 1: The current state of CSS](#topic---1-the-current-state-of-css)
+- [Topic - 2 : You can write css at 3 places](#topic---2-you-can-write-css-at-3-places)
+
+---
+
+## Topic - 1: The current state of CSS
+
+- Code Files
+
+  - **[The current state of CSS](./Topic-01_Current-State-of-CSS/index.html)**
 
 **Introduction**
 
@@ -100,7 +136,15 @@ Modern CSS is powerful and evolving rapidly. Today, CSS supports:
 
 - CSS has become more developer-friendly with better browser support and reduced dependency on external layout hacks (like floats and tables).
 
-## Topic - 2 : You can write css at 3 places
+## Topic - 2: You can write css at 3 places
+
+- Code Files
+
+  - **[Inline CSS](./Topic-02_Ways-to-Write-CSS/01-inline-css/inline-css-example.html)**
+
+  - **[Internal CSS](./Topic-02_Ways-to-Write-CSS/02-internal-css/internal-css-example.html)**
+
+  - **[External CSS](./Topic-02_Ways-to-Write-CSS/03-external-css/index.html)**
 
 - The whole job of CSS has two core tasks::
 
