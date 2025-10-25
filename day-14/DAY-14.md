@@ -746,4 +746,4 @@ The more you use flexbox, the more natural it becomes
 
 ---
 
-**Built with the Tortoise approach 🐢 - Master the fundamentals, one property at a time, Learning by doing**
+**Built with the Tortoise approach 🐢, Learn by doing, mastering each fundamental property one step at a time.**
