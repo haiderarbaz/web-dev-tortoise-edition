@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Flexbox</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+      h2 {
+        color: #333;
+      }
+
+      .container {
+        background-color: #fff;
+        border: 1px solid #333;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Practice 08: Nested Flexbox</h2>
+      <div style="display: flex; gap: 20px">
+        <div style="flex: 1; background: #ffb3ba; padding: 20px">
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <div style="background: white; padding: 10px">Nested 1</div>
+            <div style="background: white; padding: 10px">Nested 2</div>
+            <div style="background: white; padding: 10px">Nested 3</div>
+          </div>
+        </div>
+        <div style="flex: 2; background: #baffc9; padding: 20px">
+          Main content (2x wider)
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  height: 100vh;
+}
+.container {
+  /* background: linear-gradient(degree, ); */
+  background: linear-gradient(135deg, #8a2be2, #4169e1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 350px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 120px;
+}
+
+.logo {
+  width: 150px;
+  /* height: 75px; */
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #7a3ff3;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #8a2be2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #340b5a;
+  transform: scale(1.03);
+}
+
+footer svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  display: block;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equal Height Column</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      .container {
+        background-color: #fff;
+        border: 1px solid #333;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Practice 06: Equal Height Columns</h2>
+      <div style="display: flex; gap: 20px">
+        <div style="flex: 1; background: #ffb3ba; padding: 20px">
+          Short content
+        </div>
+        <div style="flex: 1; background: #baffc9; padding: 20px">
+          Much longer content that makes this column taller but all columns
+          match the height automatically because flexbox is amazing!
+        </div>
+        <div style="flex: 1; background: #bae1ff; padding: 20px">
+          Medium content here
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

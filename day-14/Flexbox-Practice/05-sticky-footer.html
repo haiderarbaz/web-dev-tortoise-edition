@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Footer</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      .container {
+        background-color: #fff;
+        border: 1px solid #333;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Practice 05 : Sticky Footer</h2>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          min-height: 300px;
+          border: 2px solid #333;
+        "
+      >
+        <header style="background: #ffb3ba; padding: 20px">Header</header>
+        <main style="flex: 1; padding: 20px; background: #fff">
+          Content that might be short or long...
+        </main>
+        <footer style="background: #ffffba; padding: 20px">
+          Footer always at bottom
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
