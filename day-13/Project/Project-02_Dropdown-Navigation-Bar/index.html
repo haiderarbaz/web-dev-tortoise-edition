@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dropdown Navigation Bar</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link has-dropdown">Products</a>
+          <ul class="dropdown">
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">Phones</a></li>
+            <li><a href="#">Tablets</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link has-dropdown">Services</a>
+          <ul class="dropdown">
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">App Development</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Consulting</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Dropdown Navigation with CSS Positions</h1>
+      <p>Hover over "Products" or "Services" to see the dropdown menus!</p>
+
+      <h2>How It Works:</h2>
+      <ul>
+        <li><strong>Nav:</strong> position: fixed (stays at top)</li>
+        <li><strong>Nav Item:</strong> position: relative (creates context)</li>
+        <li>
+          <strong>Dropdown:</strong> position: absolute (positioned relative to
+          nav item)
+        </li>
+        <li>
+          <strong>Transitions:</strong> Smooth opacity, visibility, and
+          transform changes
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
