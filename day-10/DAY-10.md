@@ -135,6 +135,8 @@ Modern CSS is powerful and evolving rapidly. Today, CSS supports:
 
 - CSS has become more developer-friendly with better browser support and reduced dependency on external layout hacks (like floats and tables).
 
+---
+
 ## Topic - 02: You can write css at 3 places
 
 - Code Files
@@ -184,6 +186,8 @@ CSS inside `<style>` tag in the `<head>` section of HTML, use when styling a sin
 CSS in a separate `.css` file linked using `<link>` tag. Used is production standard
 
 - [Code Example](./Topic-02_Ways-to-Write-CSS/03-external-css/index.html)
+
+---
 
 ## Key Takeaways:
 
