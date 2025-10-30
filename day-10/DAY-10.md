@@ -23,22 +23,21 @@ day-10/
 |       ├── index.html
 |       └── external-css-example.css
 |
-├── index.html          # Navigation Page
-├── style.css
+├── navigation.html          # Navigation Page
 |
 └── DAY-10.md           # Complete Documentation(This File)
 ```
 
 ---
 
-## Table of Content
+## Table of Contents
 
-- [Topic - 1: The current state of CSS](#topic---1-the-current-state-of-css)
-- [Topic - 2 : You can write css at 3 places](#topic---2-you-can-write-css-at-3-places)
+- [Topic - 01: The current state of CSS](#topic---01-the-current-state-of-css)
+- [Topic - 02 : You can write css at 3 places](#topic---02-you-can-write-css-at-3-places)
 
 ---
 
-## Topic - 1: The current state of CSS
+## Topic - 01: The current state of CSS
 
 - Code Files
 
@@ -136,7 +135,7 @@ Modern CSS is powerful and evolving rapidly. Today, CSS supports:
 
 - CSS has become more developer-friendly with better browser support and reduced dependency on external layout hacks (like floats and tables).
 
-## Topic - 2: You can write css at 3 places
+## Topic - 02: You can write css at 3 places
 
 - Code Files
 
@@ -193,3 +192,7 @@ CSS in a separate `.css` file linked using `<link>` tag. Used is production stan
 - Focus on fonts, images, and components to create beautiful designs
 
 - CSS has two core tasks: selecting elements and styling them
+
+---
+
+**Created with the Tortoise approach 🐢 - Slow, steady, and thorough**
