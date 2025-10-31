@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - 08</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .parent-container {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        position: relative;
+      }
+      .static-box {
+        background-color: #0d6efd;
+        height: 200px;
+        width: 500px;
+      }
+      .relative-box {
+        background-color: #f27024;
+        position: relative;
+        left: 50px;
+        top: 50px;
+        height: 200px;
+        width: 500px;
+      }
+      .absolute-box {
+        background-color: #7b3a00;
+        height: 200px;
+        width: 500px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Challenge - 08: Position in CSS</h1>
+    <div class="parent-container">
+      <div class="static-box">1</div>
+      <div class="relative-box">2</div>
+      <div class="absolute-box">3</div>
+    </div>
+  </body>
+</html>
