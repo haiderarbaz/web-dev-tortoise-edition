@@ -20,22 +20,21 @@ day-12/
 │   ├── navbar.html
 |   └── navbar.css
 |
-├── index.html          # Navigation Page
-├── style.css
+├── navigation.html          # Navigation Page
 |
 └── DAY-12.md           # Complete Documentation(This File)
 ```
 
 ---
 
-## Table of Content
+## Table of Contents
 
-- [Topic - 1: Box model, inline and block elements](#topic---1-box-model-inline-and-block-elements)
-- [Topic - 2: Navbar Project with Pseudo-elements](#topic---2-navbar-project-with-pseudo-elements)
+- [Topic - 01: Box model, inline and block elements](#topic---01-box-model-inline-and-block-elements)
+- [Topic - 02: Navbar Project with Pseudo-elements](#topic---02-navbar-project-with-pseudo-elements)
 
 ---
 
-## Topic - 1: Box model, inline and block elements
+## Topic - 01: Box model, inline and block elements
 
 - Code Files
 
@@ -487,13 +486,11 @@ a {
 
 ---
 
-## Topic - 2: Navbar Project with Pseudo-elements
+## Topic - 02: Navbar Project with Pseudo-elements
 
 - Code Files
 
   - **[Navbar Project with Pseudo-elements](./Topic-02_Navbar-Project-With-Psuedo-Element/navbar.html)**
-
----
 
 ## What are Pseudo-elements?
 
@@ -625,24 +622,24 @@ Styles the portion of text selected by the user.
 **CRITICAL:** `::before` and `::after` **require** the `content` property, even if empty!
 
 ```css
-/* ❌ Won't work - missing content */
+/* Won't work - missing content */
 .item::before {
   color: red;
 }
 
-/* ✅ Works - has content */
+/* Works - has content */
 .item::before {
   content: ""; /* Empty content, but required */
   color: red;
 }
 
-/* ✅ Works - has text content */
+/* Works - has text content */
 .item::before {
   content: "→";
   color: red;
 }
 
-/* ✅ Works - uses attribute value */
+/* Works - uses attribute value */
 .link::after {
   content: attr(href); /* Displays the href value */
 }
@@ -770,7 +767,7 @@ For complex styling, you often need to change their display:
 
 **Best Practices for Pseudo-elements**
 
-✅ **DO:**
+**DO:**
 
 - Always include `content` property (even if empty: `content: ""`)
 - Use for **decorative** elements, not essential content
@@ -778,7 +775,7 @@ For complex styling, you often need to change their display:
 - Make them invisible to screen readers (they are by default)
 - Use for hover effects, icons, and decorative lines
 
-❌ **DON'T:**
+**DON'T:**
 
 - Put important text content in pseudo-elements (bad for accessibility)
 - Use for essential navigation or interactive elements
@@ -846,7 +843,7 @@ For complex styling, you often need to change their display:
 
 ---
 
-**Practical Navbar Project Example:**
+### Practical Navbar Project Example
 
 ```html
 <!DOCTYPE html>
@@ -951,7 +948,7 @@ For complex styling, you often need to change their display:
 
 **Common issues when pseudo-elements don't appear:**
 
-1. **❌ Missing `content` property**
+1. **Missing `content` property**
 
 ```css
 /* Won't work */
@@ -959,14 +956,14 @@ For complex styling, you often need to change their display:
   color: red;
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .item::before {
   content: "";
   color: red;
 }
 ```
 
-2. **❌ Wrong display type for your use case**
+2. **Wrong display type for your use case**
 
 ```css
 /* Inline by default - width/height won't work */
@@ -975,7 +972,7 @@ For complex styling, you often need to change their display:
   width: 100px; /* Ignored! */
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .item::after {
   content: "";
   display: block;
@@ -983,7 +980,7 @@ For complex styling, you often need to change their display:
 }
 ```
 
-3. **❌ Positioning issues**
+3. **Positioning issues**
 
 ```css
 /* Pseudo-element hidden behind parent */
@@ -993,7 +990,7 @@ For complex styling, you often need to change their display:
   /* Need positioning values! */
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .item {
   position: relative; /* Create positioning context */
 }
@@ -1017,7 +1014,7 @@ For complex styling, you often need to change their display:
 
 ---
 
-### 🐢 Learning Tip:
+### Learning Tip:
 
 **"When learning or making projects, look for errors and hunt for them!"**
 
