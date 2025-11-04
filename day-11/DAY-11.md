@@ -9,7 +9,7 @@
 ### Project Structure:
 
 ```
-day-10/
+day-11/
 ├── Topic-01_Building-a-web-project-Login-page/
 |   ├── assets/
 |   |   └── login-page.png
@@ -20,22 +20,21 @@ day-10/
 │   ├── css-selectors.html
 |   └── css-selectors.css
 |
-├── index.html          # Navigation Page
-├── style.css
+├── navigation.html          # Navigation Page
 |
 └── DAY-11.md           # Complete Documentation(This File)
 ```
 
 ---
 
-## Table of Content
+## Table of Contents
 
-- [Topic - 1: Building a web project - Login page](#topic---1-building-a-web-project---login-page)
-- [Topic - 2: Masterclass on CSS selectors](#topic---2-masterclass-on-css-selectors)
+- [Topic - 01: Building a web project - Login page](#topic---01-building-a-web-project---login-page)
+- [Topic - 02: Masterclass on CSS selectors](#topic---02-masterclass-on-css-selectors)
 
 ---
 
-## Topic - 1: Building a web project - Login page
+## Topic - 01: Building a web project - Login page
 
 - Code Files
 
@@ -126,7 +125,7 @@ This mini-project focuses on:
 
 ---
 
-## Topic - 2: Masterclass on CSS selectors
+## Topic - 02: Masterclass on CSS selectors
 
 - Code Files
 
@@ -320,3 +319,7 @@ h3 {
 | **Class / Attribute / Pseudo-class Selector** | `.btn`, `[type="text"]`, `:hover` | High        |
 | **ID Selector**                               | `#main`                           | Higher      |
 | **Inline CSS**                                | `style=""`                        | Highest     |
+
+---
+
+**Created with the Tortoise approach 🐢 - Slow, steady, and thorough**
