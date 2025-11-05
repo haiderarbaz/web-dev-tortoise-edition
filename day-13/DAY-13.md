@@ -28,18 +28,17 @@ day-13/
 │   ├── dropdown-navbar.html
 │   └── dropdown-navbar.css
 |
-├── index.html          # Navigation Page
-├── style.css
+├── navigation.html          # Navigation Page
 |
 └── DAY-13.md           # Complete Documentation(This File)
 ```
 
 ---
 
-## Table of Content
+## Table of Contents
 
-- [Topic - 1: Twitter-Style Navbar](#topic---1-twitter-style-navbar)
-- [Topic - 2: Dropdown Navbar & CSS Positions](#topic---2-dropdown-navbar-and-css-positions)
+- [Topic - 01: Twitter-Style Navbar](#topic---01-twitter-style-navbar)
+- [Topic - 02: Dropdown Navbar & CSS Positions](#topic---02-dropdown-navbar-and-css-positions)
 
 ---
 
@@ -53,7 +52,7 @@ day-13/
 
 ---
 
-## Topic - 1: Twitter-Style Navbar
+## Topic - 01: Twitter-Style Navbar
 
 - Code Files
 
@@ -254,6 +253,8 @@ ul {
 - Padding creates unwanted indentation
 - Bullet points look unprofessional in navigation
 
+---
+
 ### Custom Navbar Implementation Project:
 
 [Project Code File](./Project/Project-01_Custom-Navigation-Bar/index.html)
@@ -268,7 +269,7 @@ ul {
 
 ---
 
-## Topic - 2: Dropdown Navbar and CSS Positions
+## Topic - 02: Dropdown Navbar and CSS Positions
 
 - Code Files
 
@@ -290,7 +291,7 @@ CSS `position` property determines how an element is positioned in the document 
 ```css
 .box {
   position: static; /* This is the default */
-  top: 50px; /* ❌ Has no effect */
+  top: 50px; /* Has no effect */
 }
 ```
 
@@ -433,9 +434,13 @@ After absolute:      [PARENT]
 | `fixed`    | No                    | Viewport                    | No              | Sticky headers, floating buttons       |
 | `sticky`   | Yes (until threshold) | Viewport                    | Until threshold | Sticky headers within sections         |
 
+---
+
 ### Dropdown Navbar Project:
 
 [Project Code File](./Project/Project-02_Dropdown-Navigation-Bar/index.html)
+
+---
 
 ### Key Dropdown Concepts:
 
@@ -489,6 +494,8 @@ nav {
   z-index: 1001; /* Above nav items */
 }
 ```
+
+---
 
 ### Challenges Faced & Solutions:
 
@@ -599,3 +606,7 @@ ul {
 - Check if parent has `position: relative` for absolute children
 - Verify `content` property exists for pseudo-elements
 - Test z-index layering if elements overlap incorrectly
+
+---
+
+**Created with the Tortoise approach 🐢 - Slow, steady, and thorough**
