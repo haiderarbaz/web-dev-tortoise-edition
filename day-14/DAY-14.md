@@ -30,8 +30,7 @@ day-14/
 │   ├── flexbox.html
 │   └── flexbox.css
 |
-├── index.html          # Navigation Page
-├── style.css
+├── navigation.html          # Navigation Page
 |
 └── DAY-14.md           # Completed Documentation (This File)
 
@@ -39,14 +38,14 @@ day-14/
 
 ---
 
-## Table of Content
+## Table of Contents
 
-- [Topic - 1: Build a Custom Coming Soon Template Project](#topic---1-build-a-custom-coming-soon-template-project)
-- [Topic - 2: Flexbox Masterclass](#topic---2-flexbox-masterclass)
+- [Topic - 01: Build a Custom Coming Soon Template Project](#topic---01-build-a-custom-coming-soon-template-project)
+- [Topic - 02: Flexbox Masterclass](#topic---02-flexbox-masterclass)
 
 ---
 
-## Topic - 1: Build a custom coming soon template Project
+## Topic - 01: Build a custom coming soon template Project
 
 - Code Files
 
@@ -202,7 +201,7 @@ svg {
 
 ---
 
-## Topic - 2: Flexbox Masterclass
+## Topic - 02: Flexbox Masterclass
 
 - Code Files
 
@@ -650,6 +649,8 @@ flex: 1 0 auto; /* Explicit: grow 1, no shrink, auto basis */
   - Image galleries
   - Complex grids
 
+---
+
 ### Challenges Faced & Solutions
 
 #### **Challenge 1: Items Not Centering**
@@ -740,7 +741,7 @@ flex: 1 0 auto; /* Explicit: grow 1, no shrink, auto basis */
 
 ---
 
-### 🐢Tortoise Learning Tip
+### Learning Tip
 
 **Don't try to memorize everything** Instead:
 
