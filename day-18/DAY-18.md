@@ -1,12 +1,12 @@
-# Day 18 - Hand-On CSS Challenges
+# Day 18 - Hands-On CSS Challenges
 
 A collection of 3 beginner-friendly CSS challenges focusing on text styling, button design, and borders.
 
-- Challenge - 1: Change Text Color
+- Challenge - 01: Change Text Color
 
-- Challenge - 2: Style a Button
+- Challenge - 02: Style a Button
 
-- Challenge - 3: Add a Dashed Border with Border Radius
+- Challenge - 03: Add a Dashed Border with Border Radius
 
 ---
 
@@ -23,7 +23,7 @@ day-18/
 ├── Challenge-03/
 │   └── challenge-03.html
 |
-├── index.html          # Navigation Page
+├── navigation.html          # Navigation Page
 |
 └── DAY-18.md           # Completed Documentation (This File)
 
@@ -31,15 +31,15 @@ day-18/
 
 ---
 
-## Table of Content
+## Table of Contents
 
-- [Challenge - 1: Change Text Color](#challenge---1-change-text-color)
-- [Challenge - 2: Style a Button](#challenge---2-style-a-button)
-- [Challenge - 3: Add a Dashed Border with Border Radius](#challenge---3-add-a-dashed-border-with-border-radius)
+- [Challenge - 01: Change Text Color](#challenge---01-change-text-color)
+- [Challenge - 02: Style a Button](#challenge---02-style-a-button)
+- [Challenge - 03: Add a Dashed Border with Border Radius](#challenge---03-add-a-dashed-border-with-border-radius)
 
 ---
 
-## Challenge - 1: Change Text Color
+## Challenge - 01: Change Text Color
 
 **Task:**
 
@@ -53,7 +53,7 @@ day-18/
 
 ---
 
-## Challenge - 2: Style a Button
+## Challenge - 02: Style a Button
 
 **Task:**
 
@@ -83,7 +83,7 @@ day-18/
 
 ---
 
-## Challenge - 3: Add a Dashed Border with Border Radius
+## Challenge - 03: Add a Dashed Border with Border Radius
 
 **Task:**
 
